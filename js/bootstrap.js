@@ -2375,3 +2375,10 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
++function ($) {
+	$(document).ready(function () {
+        $(".navbar-nav ul.trigger-collapse a").click(function(event) {
+          $(".navbar-collapse").collapse('hide');
+        });
+      });
+}(jQuery);
