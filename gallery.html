@@ -87,7 +87,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
+	<div class="container">
     <div class="container theme-showcase" role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -96,22 +96,29 @@
         <center><img src="images/masthead.jpg" alt="Here Goes the Church name and the CIPBC Symbol" style='height: auto; width: 100%; object-fit: contain; border: 10px;'/></center>
 		</div>
       <!--</div>-->
-	  <br/><br/><br/>
+	  <br/>
 		<div class="container-fluid">
 			<div class="row">
+			<center>
 				<div class="col-md-12">
-				<button type="button" id="id16" class="btn btn-lg btn-primary-outline">Independence Day 2016</button>
-				<button type="button" id="rd14" class="btn btn-lg btn-info-outline">Republic Day 2014</button>
-				<button type="button" id="cs13" class="btn btn-lg btn-success-outline">Carol Service 2013</button>
-				<button type="button" id="tg12" class="btn btn-lg btn-warning-outline">Thanksgiving 2012</button>
+				<button type="button" id="id16" class="btn btn-sm btn-primary">Independence Day 2016</button>
+				<button type="button" id="rd14" class="btn btn-sm btn-primary">Republic Day 2014</button>
+				<button type="button" id="cs13" class="btn btn-sm btn-primary">Carol Service 2013</button>
+				<button type="button" id="tg12" class="btn btn-sm btn-primary">Thanksgiving 2012</button>
+				<!--
+				<button type="button" id="rd14" class="btn btn-sm btn-info-outline">Republic Day 2014</button>
+				<button type="button" id="cs13" class="btn btn-sm btn-success-outline">Carol Service 2013</button>
+				<button type="button" id="tg12" class="btn btn-sm btn-warning-outline">Thanksgiving 2012</button>
+				-->
 				</div>
+			</center>	
 			</div>
-				<br/><br/>
+				<br/>
 			<div id="content"></div>
 			<!--Content loads here based on the button's click above -->
 				<script>
 					$(document). ready(function(){
-					$('#content').load ('G_IndependenceDay_2016.html');	
+					$('#content').load ('G_IndependenceDay_2016.html');
 					});
 					$(document). ready(function(){
 						$('#id16').click(function(){
@@ -136,8 +143,7 @@
 				</script>		
 		</div>
 	</div>
-	
-	
+	</div>	
 
   <input name="animation" type="hidden">
   </body>
