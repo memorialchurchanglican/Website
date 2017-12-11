@@ -85,6 +85,7 @@
 	  
 				<center>
 				<div class="col-md-12">
+        <button type="button" id="id16" class="btn btn-sm btn-primary">Confirmatiom Service 2017</button>
 				<button type="button" id="id16" class="btn btn-sm btn-primary">Independence Day 2016</button>
 				<button type="button" id="rd14" class="btn btn-sm btn-primary">Republic Day 2014</button>
 				<button type="button" id="cs13" class="btn btn-sm btn-primary">Carol Service 2013</button>
@@ -95,7 +96,12 @@
 				<!--Content loads here based on the button's click above -->
 				<script>
 					$(document). ready(function(){
-					$('#content').load ('G_IndependenceDay_2016.html');
+					$('#content').load ('G_Confirmation_Service_2017.html');
+					});
+          $(document). ready(function(){
+						$('#id16').click(function(){
+						$('#content').load ('G_Confirmation_Service_2017.html');
+						});
 					});
 					$(document). ready(function(){
 						$('#id16').click(function(){
